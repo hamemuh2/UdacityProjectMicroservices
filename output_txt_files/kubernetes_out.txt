@@ -9,4 +9,5 @@ NAME              READY   STATUS    RESTARTS   AGE
 udacity-project   1/1     Running   0          8s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
+Output prediction: [20.35373177134412]
 Handling connection for 8000
