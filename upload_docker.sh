@@ -5,11 +5,15 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=osmanahmedshell/udacity_project
 
 # Step 2:  
 # Authenticate & tag
+# dockerpath has been set to the same as tag
 echo "Docker ID and Image: $dockerpath"
+# Authenticate user from the command line prompt
+docker login
+tagname=master
 
 # Step 3:
-# Push image to a docker repository
+docker push "${dockerpath}:${tagname}"
